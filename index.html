@@ -9,37 +9,39 @@
 </head>
   <body>
     <header class="header">
-      <div class="header__top-banner">
-        <span class="header__top-banner--badge">New</span> Using Teamly as a newsletter is a manifesto in itself. It is simply the best choice for your email marketing
-      </div>
-      <nav class="header__navbar">
-        <div class="header__logo">Newsify</div>
-        <ul class="header__nav-links">
+      <div class="header__container">
+        <div class="header__top-banner">
+          <span class="header__top-banner--badge">New</span> Using Teamly as a newsletter is a manifesto in itself. It is simply the best choice for your email marketing
+        </div>
+        <nav class="header__navbar">
+          <div class="header__logo">Newsify</div>
+          <ul class="header__nav-links">
             <li class="header__nav-item"><a href="#" class="header__nav-link">Home</a></li>
             <li class="header__nav-item"><a href="#" class="header__nav-link">About Us</a></li>
             <li class="header__nav-item"><a href="#" class="header__nav-link">Pricing</a></li>
             <li class="header__nav-item"><a href="#" class="header__nav-link">Demo</a></li>
-        </ul>
-        <div class="header__actions">
-          <div class="header__search">
-            <i class="fas fa-search"></i>
-            <input type="text" placeholder="Search">
+          </ul>
+          <div class="header__actions">
+            <div class="header__search">
+              <i class="fas fa-search"></i>
+              <input type="text" placeholder="Search">
+            </div>
+            <button class="header__register-btn">Register</button>
           </div>
-          <button class="header__register-btn">Register</button>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
 
      <section class="main">
         <div class="main__content">
-            <p class="main__greeting">Hey, Everyone 👋</p>
-            <h1 class="main__title">Newsify is the email newsletter that works completely automated</h1>
-            <p class="main__description">Track connections in real time. See who your community is led by and find the most active</p>
-            <form class="main__form">
-              <input type="email" class="main__input" placeholder="Your email address" required>
-              <button type="submit" class="main__button">Register</button>
-            </form>
-          </div>
+          <p class="main__greeting">Hey, Everyone 👋</p>
+          <h1 class="main__title">Newsify is the email newsletter that works completely automated</h1>
+          <p class="main__description">Track connections in real time. See who your community is led by and find the most active</p>
+          <form class="main__form">
+            <input type="email" class="main__input" placeholder="Your email address" required>
+            <button type="submit" class="main__button">Register</button>
+          </form>
+        </div>
         <div class="main__image">
             <img src="./assets/images/header image.png" alt="Newsletter preview on phone">
         </div>
@@ -47,7 +49,7 @@
 
     <section class="brands">
       <div class="brands__container">
-        <div class="brands__item">
+        <div class="brands__item brands__item-first">
             <img src="./assets/images/stripe-logo.png" alt="Stripe" class="brands__logo">
         </div>
         <div class="brands__item">
@@ -67,6 +69,50 @@
         </div>
         <div class="brands__item">
             <img src="./assets/images/zoom-logo.png" alt="Zoom" class="brands__logo">
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="newsletter__content">
+        <h2 class="newsletter__title">Let Your Newsletter Do the talk</h2>
+        <p class="newsletter__subtitle">
+          Let`s clam it , today we don`t the time to talk or time to scroll over groups or other plateforms . So it is better for your automated newsletter to do the tlk. What cloud be done better? Stay connected to your community.
+        </p>
+        <div class="newsletter__chart">
+          <img src="./assets/images/user-dashboard.png" alt="Monthly Engagement Chart" class="newsletter__chart-image">
+        </div>
+        <div class="newsletter__info-cards">
+          <div class="info-card">
+            <div class="info-card__icon">
+              <img src="./assets/images/arrow.png" alt="Feature Cards Icon">
+            </div>
+            <h3 class="info-card__title">Direct Connections</h3>
+            <p class="info-card__text">
+              No logins or anything is needed. Directly connect with everyone with only one permission. Let us control your business world for you. Easy, customizable and quick way of connecting with others
+            </p>
+          </div>
+
+          <div class="info-card info-card--highlight">
+              <div class="info-card__icon info-card__icon-blue">
+                <img src="./assets/images/arrow.png" alt="Feature Cards Icon">
+              </div>
+              <h3 class="info-card__title">Don`t let the team stagenate</h3>
+              <p class="info-card__text">
+                Don`t let the team get board by unnecessary messages. Let your team stay connected in the way they should-only important things. Rest could stay in other apps, we take the important part.
+              </p>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card__icon">
+              <img src="./assets/images/arrow.png" alt="Feature Cards Icon">
+            </div>
+            <h3 class="info-card__title">Complete Automated</h3>
+              <p class="info-card__text">
+               Your members need to stay active? You can craete polls, feedback papers and a lot more stuff our widgets to keep them connected and everything with one click
+              </p>
+          </div>
+
         </div>
       </div>
     </section>
