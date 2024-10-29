@@ -44,7 +44,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 14px 180px 160px 185px;
+  margin: 14px 180px 160px 140px;
 }
 
 .header__logo {
@@ -178,19 +178,24 @@ body {
   max-width: 574px;
 }
 
-.brands__bar {
+.brands {
   background-color: var(--newsify-blue-color);
+  padding: 69px 89px 67px 78px;
 }
 
-.brands__bar-logos {
+.brands__container {
   display: flex;
-  align-items: center;
-  width: 109.36px;
-  height: 45.51px;
-  /* margin-left: 133px; */
-  padding: 70px 90px 68px 79px;
+  justify-content: center;
+  gap: 133px;
 }
 
 .brands__item {
-  margin-left: 85px;
+  display: flex;
+  align-items: center;
+  max-width: 109px;
+  min-height: 45px;
+}
+
+.brands__logo {
+  max-height: 40px;
 }
