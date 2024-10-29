@@ -390,148 +390,254 @@ font-size: 56px;
   MEDIA QUERY
 ---------------*/
 
-/* For tablets and smaller screens */
-/* @media (max-width: 1024px) {
-  .header__navbar {
-    margin: 14px 80px 100px 80px;
-  }
+  @media (max-width: 768px) {
 
-  .header__nav-links {
-    margin: 11px 20px 11px 0;
-  }
+    .header__container {
+      padding: 10px;
+    }
+  
+    .header__top-banner {
+      font-size: 12px;
+      text-align: center;
+      padding: 8px;
+    }
+  
+    .header__navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .header__logo {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
 
-  .header__nav-item {
-    margin-left: 20px;
-  }
+    .header__nav-links {
+      display: none;
+    }
+  
+    .header__actions {
+      display: none;
+    }
 
-  .header__search {
-    width: 200px;
-  }
-
-  .main__title {
-    font-size: 60px;
-  }
-
-  .main__description {
-    margin-right: 0;
-    margin-bottom: 30px;
-  }
-
-  .main__input {
-    width: 60%;
-  }
-
-  .brands__container {
-    gap: 50px;
-  }
-} */
-
-/* For smaller tablets */
-@media (max-width: 767px) {
-  .header__navbar {
-    flex-direction: column;
-    align-items: center;
-    margin: 14px 40px 80px 40px;
-  }
-
-  .header__nav-links {
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 0;
-  }
-
-  .header__nav-item {
-    margin: 10px 0;
-  }
-
-  .header__search {
-    width: 180px;
-  }
-
-  .header__register-btn {
-    padding: 15px 30px;
-    margin-top: 10px;
-  }
-
-  .main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .main__title {
-    font-size: 48px;
-  }
-
-  .main__description {
-    font-size: 18px;
-  }
-
-  .main__form {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .main__input {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
-  .main__button {
-    padding: 15px 40px;
-  }
-
-  .brands__container {
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-}
-
-/* For mobile devices */
-/* @media (max-width: 480px) {
-  .header__navbar {
-    margin: 14px 20px 60px 20px;
-  }
-
-  .header__logo {
-    font-size: 28px;
-  }
-
-  .header__search {
-    width: 150px;
-  }
-
-  .header__register-btn {
-    padding: 10px 20px;
-    font-size: 14px;
-  }
-
-  .main__title {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-
+    .main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .main__content {
+      order: 1;
+      width: 100%;
+    }
+  
+    .main__greeting {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  
+    .main__title {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+  
   .main__description {
     font-size: 16px;
-    line-height: 1.4em;
+    margin: 10px 0;
   }
-
-  .main__input {
-    padding: 15px;
+  
+  .main__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
   }
-
+  
+  .main__input,
   .main__button {
-    padding: 15px 30px;
-    font-size: 14px;
+    width: 90%;
+    padding: 10px;
+  }
+  
+  .main__image {
+    order: 2;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .main__image img {
+    width: 100%;
+    height: auto;
   }
 
   .brands__container {
-    flex-direction: column;
-    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+    justify-content: start;
   }
 
   .brands__item {
-    max-width: 80px;
-    min-height: 35px;
+    flex: 0 0 auto;
   }
-} */
+  .brands__logo {
+    width: 80px;
+    height: auto;
+  }
+
+  .brands__item {
+    flex: 1 1 30%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .brands__logo {
+    width: 100%;
+    max-width: 80px;
+  }
+
+  .newsletter__title {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .newsletter__subtitle {
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .newsletter__chart img {
+    width: 100%;
+    height: auto;
+  }
+
+  .newsletter__info-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .newsletter {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .newsletter__title {
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+  }
+  
+  .newsletter__subtitle {
+    font-size: 16px;
+    margin: 30px 47px;
+    /* margin-bottom: 20px; */
+  }
+  
+  .newsletter__chart {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  .newsletter__chart-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .newsletter__info-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .info-card {
+    width: 90%;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-card__icon {
+    margin-bottom: 10px;
+  }
+  
+  .info-card__title {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .info-card__text {
+    font-size: 14px;
+  }
+  
+  .info-card--highlight {
+    background-color: #f0f8ff;
+    border: 1px solid #b0e0e6;
+  }
+
+  .features {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .features__title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .features__subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .features__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .feature {
+    width: 90%;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature__image-container {
+    margin-bottom: 10px;
+  }
+  
+  .feature__image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .feature__title {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .feature__description {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .feature__button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
