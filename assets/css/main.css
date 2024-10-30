@@ -5,7 +5,10 @@
   --newsify-blue-color: #1668E8;
   --searchbar-border-color: #CCCCCC;
   --header-search-i-color: #707070;
+  --testimonial-p-color: #65676C;
   --feature-cards-color: #F7F7F7;
+  --testimonial-card-color: #1E1F20;
+  --testimonial-stars-color: #FFC250;
   --button-hover-color: #049DD9;
   --white-color: #FFFFFF;
   --black-color: #000000;
@@ -395,14 +398,21 @@ body {
 
 .testimonial {
   padding: 2rem;
-  font-family: Arial, sans-serif;
+  font-family: 'Inter';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .testimonial__header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
+  justify-content: space-between;
+  margin: 160px 0 60px;
+  width: 100%;
+  max-width: 1557px;
 }
 
 .testimonial__text-column {
@@ -410,57 +420,63 @@ body {
 }
 
 .testimonial__title {
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2em;
+  max-width: 543px;
+  margin-bottom: 24px;
+  letter-spacing: -2px;
 }
 
 .testimonial__title--highlight {
-  color: #0073e6;
-  font-weight: bold;
+  color: var(--newsify-blue-color);
 }
 
 .testimonial__subtitle {
-  color: #777;
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
+  max-width: 396px;
+  margin-bottom: 60px;
+  line-height: 1.6em;
+  color: var(--testimonial-p-color);
 }
 
 .testimonial__button-column {
   display: flex;
-  gap: 0.5rem;
+  gap: 12px;
 }
 
 .testimonial__nav-button {
   background: none;
-  border: 1px solid #ccc;
+  border: 1.57px solid var(--searchbar-border-color);
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #0073e6;
+  color: var(--header-search-i-color);
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .testimonial__nav-button:hover {
-  background-color: #f0f0f0;
+  border: 1.57px solid var(--newsify-blue-color);
+  color: var(--button-hover-color);
 }
 
 .testimonial__card {
-  background-color: #1c1c1c;
+  background-color: var(--testimonial-card-color);
   color: white;
-  padding: 1.5rem;
+  padding: 81px 296px 81px 71px;
   border-radius: 10px;
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 1557px;
+  margin-inline: auto;
 }
 
 .testimonial__text {
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
+  font-size: 56px;
+  margin-right: 0;
+  margin-bottom: 114px;
+  line-height: 1.2em;
 }
 
 .testimonial__footer {
@@ -484,7 +500,7 @@ body {
 }
 
 .testimonial__rating {
-  color: gold;
+  color: var(--testimonial-stars-color);
   font-size: 0.9rem;
 }
 
