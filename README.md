@@ -11,39 +11,32 @@
 - [Project Structure](#project-structure)
 - [Conclusion](#conclusion)
 
----
 
 ## Overview
 This project demonstrates a range of modern CSS techniques, including layout management, animations, and responsive design principles. It’s a valuable exercise in mastering styling elements for various screen sizes and user interactions.
 
----
 
 ## Live Preview
 Explore the latest build of Newsify here:
 [Live Preview Link](https://nevvsify.netlify.app/)
 
----
 
 ## Key Learnings
 #### 1. CSS Layout Techniques
 - **Flexbox**: Used for creating flexible and responsive layouts, managing spacing, and arranging elements efficiently across different screen sizes.
-<br>
 - **Positioning and Spacing**: Learned to control element positioning with `margin`, `padding`, and `position` properties, achieving precise layout adjustments.
   
 #### 2. CSS Animations
 - **Transitions and Keyframes**: Implemented animations using `@keyframes` for complex animations and `transition` for subtle interactive effects.
-<br>
 - **Transformations**: Applied transformations such as scaling and rotating elements, enhancing user experience and visual appeal.
 
 #### 3. Responsive Design
 - **Media Queries**: Designed layouts to adapt smoothly to various screen sizes, ensuring a consistent user experience across devices.
-<br>
 - **Fluid Sizing**: Utilized percentages, viewport units (like `vw` and `vh`), and `max-width` to create scalable layouts.
 
 #### 4. Writing and Organizing README Files
 - Developed skills in documenting projects clearly and concisely, covering project purpose, structure, and key learnings to make code more accessible to others.
 
----
 
 ## Technologies
 - **HTML5** for structured content
@@ -52,7 +45,6 @@ Explore the latest build of Newsify here:
 - **Google Fonts** for fonts
 - JavaScript (soon to be added) for added interactivity and dynamic functionality
 
----
 
 ## Contribution
 To run this project locally, follow these steps:
