@@ -61,16 +61,16 @@ To run this project locally, follow these steps:
 
 ## Project Structure
 
-  Newsify/
-│
-├── assets/
-│   ├── css/
-│   │   └── main.css           # Core stylesheet for the project
-│   ├── images/                # Project images
-│   └── js/                    # JavaScript files (to be added)
-│
-├── index.html                 # Main HTML file
-└── README.md                  # Project documentation
+  Newsify/ <br>
+│ <br>
+├── assets/ <br>
+│   ├── css/ <br>
+│   │   └── main.css           # Core stylesheet for the project <br>
+│   ├── images/                # Project images <br>
+│   └── js/                    # JavaScript files (to be added) <br>
+│ <br>
+├── index.html                 # Main HTML file <br>
+└── README.md                  # Project documentation <br>
 
 ## Conclusion
 
