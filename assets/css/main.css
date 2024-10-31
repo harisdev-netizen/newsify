@@ -12,6 +12,8 @@
   --faq-border-color: #DEDEDE;
   --faq-icons-color: #786F77;
   --button-hover-color: #049DD9;
+  --footer-address-color: #A3DC2F;
+  --footer-social-links-hover: #ffd700;
   --white-color: #FFFFFF;
   --black-color: #000000;
 }
@@ -772,40 +774,75 @@ body {
 }
 
 .footer__text {
-  font-size: 14px;
-  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.3em;
+  letter-spacing: 1.5px;
+  margin-block: 53.68px;
+}
+
+.footer__text-map-text {
+  color: var(--footer-address-color);
+}
+
+.footer__text-help {
+  margin-bottom: 21px;
+}
+
+.footer__text-contact {
+  margin-block: 10px;
+}
+
+.footer__text-email {
+  margin-bottom: 26px;
 }
 
 .footer__socials {
   display: flex;
-  gap: 10px;
+  gap: 33px;
 }
 
 .footer__social-link {
-  color: #fff;
+  color: var(--white-color);
+  font-size: 20px;
   text-decoration: none;
-  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer__social-link:hover {
+  color: var(--footer-social-links-hover);
 }
 
 .footer__bottom {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid var(--searchbar-border-color);
   padding-top: 20px;
   margin-top: 20px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__policies {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 15px;
-  margin-top: 10px;
+  margin-top: 0;
+  padding: 0;
 }
 
 .footer__policy-link {
-  color: #fff;
+  color: var(--white-color);
   font-size: 12px;
   text-decoration: none;
+  position: relative;
+  margin: 0 10px;
+}
+
+.footer__policy-link:not(:last-child)::after {
+  content: '|';
+  margin-left: 10px;
+  color: var(--white-color);
+  font-size: 12px;
 }
 
 .footer__policy-link:hover {
@@ -816,29 +853,13 @@ body {
   font-size: 12px;
 }
 
-.footer__socials {
-  display: flex;
-  gap: 15px;
-}
-
-.footer__social-link {
-  color: #fff;
-  font-size: 20px;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.footer__social-link:hover {
-  color: #ffd700;
-}
 
 /*---------------------------
   MEDIA QUERY: SCREEN 768PX
 -----------------------------*/
 
   @media (max-width: 768px) {
-  .header__top-banner,
-  .header__top-banner--badge,
+
   .header__nav-links,
   .header__actions {
     display: none;
