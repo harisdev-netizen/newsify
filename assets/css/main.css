@@ -1063,19 +1063,20 @@ body {
   }
 
   .testimonial__title {
-    font-size: 32px;
+    font-size: 30px;
+    letter-spacing: 0px;
     max-width: 100%;
     text-align: center;
     margin-bottom: 16px;
   }
 
   .testimonial__user-info {
-        text-align: left;
-          gap: 10px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-direction: column-reverse;
+    text-align: left;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
   }
 
   .testimonial__subtitle {
@@ -1125,7 +1126,8 @@ body {
   }
 
   .faq__title {
-    font-size: 32px;
+    font-size: 30px;
+    letter-spacing: 0px;
     margin-bottom: 20px;
   }
 
@@ -1135,23 +1137,24 @@ body {
   }
 
   .faq__question {
-    font-size: 24px;
+    font-size: 22px;
     padding: 30px 0 30px 12px;
   }
 
   .faq__icon {
     width: 50px;
     height: 50px;
-    padding: 10px;
-    font-size: 24px;
+    padding: 12px 17px;
+    font-size: 27px;
   }
 
   .faq__answer {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0 0 40px 12px;
   }
 
   .subscription {
+    max-width: 95%;
     padding: 40px 20px;
     margin-bottom: 80px;
   }
