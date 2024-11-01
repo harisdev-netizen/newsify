@@ -277,7 +277,7 @@ body {
 .info-card {
   background-color: var(--feature-cards-color);
   padding: 20px;
-  width: 400px;
+  width: 33.33%;
   /* border-radius: 8px; */
   text-align: left;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -299,6 +299,7 @@ body {
         align-items: center;
         border: 6px solid var(--white-color);
         border-radius: 50%;
+        background-color: var(--feature-cards-color);
 }
 
 .info-card__icon-blue {
@@ -857,6 +858,24 @@ body {
   font-size: 12px;
 }
 
+/*---------------------------
+  MEDIA QUERY: SCREEN 1025PX
+-----------------------------*/
+@media (max-width: 1025px) {
+  .header__top-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header__navbar {
+    display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 14px 180px 160px 140px;
+  }
+}
+
 
 /*---------------------------
   MEDIA QUERY: SCREEN 768PX
@@ -985,19 +1004,18 @@ body {
 
   .newsletter__info-cards {
     flex-direction: column;
-    gap: 15px;
-    margin-top: 20px;
+    gap: 70px;
   }
 
   .info-card {
     width: 100%;
     padding: 15px;
-    margin-bottom: 36px;
   }
 
   .info-card__icon {
-    min-height: 60px;
-    margin: -46px 112px 22px;
+    height: 80px;
+    width: 80px;
+    margin: -46px auto 22px auto;
     border-width: 4px;
   }
 
@@ -1018,6 +1036,7 @@ body {
   }
 
   .features__subtitle {
+    padding: 0 28px;
     font-size: 16px;
     margin-bottom: 40px;
   }
