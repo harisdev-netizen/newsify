@@ -251,7 +251,8 @@ body {
 .newsletter__subtitle {
   font-size: 22px;
   line-height: 1.6em;
-  margin: 0 160px 54px 160px;
+  max-width: 1250px;
+  margin: 0 auto 40px auto;
   color: var(--black-color);
 }
 
