@@ -235,7 +235,7 @@ body {
   NEWSLETTER CHART SECTION
 -----------------------------*/
 .newsletter {
-  margin: 160px 333px 160px 333px;
+  margin: 160px auto;
   text-align: center;
   background-color: #ffffff;
 }
