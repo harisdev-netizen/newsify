@@ -289,16 +289,16 @@ body {
 }
 
 .info-card__icon {
-  display: flex;
-  min-height: 100px;
-  margin: 110px;
-  margin-top: -81px;
-  margin-bottom: 44px;
-  justify-content: center;
-  align-items: center;
-  border: 6px solid var(--white-color);
-  border-radius: 100px;
-  background-color: var(--feature-cards-color);
+      display: flex;
+        height: 100px;
+        width: 100px;
+        margin: -81px auto 45px auto;
+        /* margin-top: -81px; */
+        /* margin-bottom: 44px; */
+        justify-content: center;
+        align-items: center;
+        border: 6px solid var(--white-color);
+        border-radius: 50%;
 }
 
 .info-card__icon-blue {
@@ -465,7 +465,12 @@ body {
   justify-content: center;
   color: var(--header-search-i-color);
   cursor: pointer;
-  font-size: 1.4rem;
+  /* font-size: 1.4rem; */
+}
+
+.testimonial__nav-button img {
+  max-width: 15px;
+  height: auto;
 }
 
 .testimonial__nav-button:hover {
