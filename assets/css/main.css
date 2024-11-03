@@ -237,7 +237,7 @@ body {
 .newsletter {
   margin: 160px auto;
   text-align: center;
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 
 .newsletter__title {
@@ -481,7 +481,7 @@ body {
 
 .testimonial__card {
   background-color: var(--testimonial-card-color);
-  color: white;
+  color: var(--white-color);
   padding: 81px 296px 81px 71px;
   border-radius: 10px;
   max-width: 1557px;
