@@ -1051,7 +1051,7 @@ body {
   }
 
   .features {
-    padding: 60px 20px;
+    padding: 40px 20px 60px 20px;
     text-align: center;
   }
 
@@ -1118,7 +1118,7 @@ body {
   }
 
   .testimonial {
-    padding: 60px 20px;
+    padding: 0 20px 60px 20px;
   }
 
   .testimonial__header {
@@ -1197,7 +1197,7 @@ body {
   }
 
   .faq {
-    margin: 80px 20px;
+    margin: 30px 20px 80px 20px;
     text-align: center;
   }
 
